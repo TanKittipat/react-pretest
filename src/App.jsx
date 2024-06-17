@@ -1,3 +1,5 @@
+import CardCompo from "./CardCompo";
+
 function App() {
   return (
     <div className="container">
@@ -28,6 +30,12 @@ function App() {
             </a>
           </div>
         </div>
+        <CardCompo />
+        <CardCompo />
+        <CardCompo />
+        <CardCompo />
+        <CardCompo />
+        <CardCompo />
       </div>
     </div>
   );
