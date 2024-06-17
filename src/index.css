@@ -1,4 +1,33 @@
 .container {
   text-align: center;
-  margin: 25px auto;
+  margin: 1.75rem auto;
+}
+
+.card-lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 225px;
+  height: auto;
+}
+
+.card img {
+  width: 225px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card h6 {
+  font-size: 107%;
+}
+
+.card p {
+  font-size: 95%;
+}
+
+#search {
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
 }
